@@ -6,7 +6,7 @@ on:
 env:
   AZURE_FUNCTIONAPP_NAME: GitHubBuildTest
   AZURE_FUNCTIONAPP_PACKAGE_PATH: '.'
-  DOTNET_VERSION: '6.0.x'    
+  DOTNET_VERSION: '3.1.x'    
 
 jobs:
   build-and-deploy:
